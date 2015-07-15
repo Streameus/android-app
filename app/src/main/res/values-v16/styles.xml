@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <style name="RobotoTextViewStyle" parent="android:Widget.TextView">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="RobotoButtonStyle" parent="android:Widget.Holo.Button">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="StreameusTitre" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">@color/darkblue</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+</resources>

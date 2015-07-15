@@ -1,0 +1,26 @@
+<menu xmlns:streameus="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/search"
+        android:id="@+id/drawer_menuItem_Search"
+        android:showAsAction="always"
+        streameus:showAsAction="always"
+        android:icon="@drawable/ic_action_search"/>
+    <item
+        android:title="@string/aide"
+        android:id="@+id/drawer_menuItem_Aide"
+        android:icon="@drawable/ic_action_help"
+        />
+    <!--<item android:id="@+id/drawer_menuItem_l_equipe"-->
+        <!--android:title="@string/lequipe"-->
+        <!--android:icon="@drawable/ic_action_about"/>-->
+    <item android:id="@+id/drawer_menuItem_A_Propos"
+        android:title="@string/apropos"
+        android:icon="@drawable/ic_action_about"
+        />
+    <item
+        android:id="@+id/drawer_menuItem_Deconnexion"
+        android:title="@string/sedeconnecter"
+        android:icon="@drawable/ic_action_accounts"
+        />
+</menu>

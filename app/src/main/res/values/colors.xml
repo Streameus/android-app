@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <color name="action_bar">#BA0000</color>
+    <color name="drawerBackgrund">#fff</color>
+    <color name="beige">#FAF3D5</color>
+    <color name="lightBlue">#66BBD7</color>
+    <!--65bcd7-->
+    <color name="darkblue">#273D4E</color>
+    <color name="red">#EE4D59</color>
+    <!--ee535a-->
+    <!--263e4e-->
+    <color name="white">#ffffff</color>
+
+    <color name="backgroundColor">#eeeeee</color>
+    <color name="backgroundWhite">@android:color/white</color>
+
+
+    <color name="Stream_darkGrey">#203543</color>
+    <color name="Stream_darkdarkGrey">#ff2f2f2f</color>
+    <color name="Stream_lighWhiteText">#ded6d6</color>
+
+
+    <color name="stream_primary">@color/Stream_darkGrey</color>
+    <color name="stream_primary_dark">@color/Stream_darkdarkGrey</color>
+    <color name="stream_accent">@color/red</color>
+
+
+</resources>

@@ -1,0 +1,70 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+        <item name="colorPrimary">@color/stream_primary</item>
+        <!--   darker variant for the status bar and contextual app bars -->
+        <item name="colorPrimaryDark">@color/stream_primary_dark</item>
+        <!--   theme UI controls like checkboxes and text fields -->
+        <item name="colorAccent">@color/stream_accent</item>
+        <item name="android:textViewStyle">@style/RobotoTextViewStyle</item>
+        <item name="android:buttonStyle">@style/RobotoButtonStyle</item>
+        <item name="android:colorBackground">#000000</item>
+    </style>
+
+
+    <style name="TransparentBar" parent="AppBaseTheme">
+        <item name="windowActionBarOverlay">true</item>
+        <item name="actionBarStyle">@style/ThemeActionBar</item>
+
+    </style>
+
+    <style name="ThemeActionBar"
+        parent="Widget.AppCompat.Light.ActionBar.Solid">
+        <item name="android:background">@null</item>
+        <!-- Support library compatibility -->
+        <item name="background">@null</item>
+    </style>
+
+
+
+
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:windowBackground">@color/backgroundColor</item>
+        <item name="android:colorBackground">@color/backgroundColor</item>
+        <item name="android:button">@style/StreameusButton</item>
+    </style>
+
+    <style name="StreameusButton" parent="TextAppearance.AppCompat.Button">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/streameus_button</item>
+        <item name="android:layout_margin">8dp</item>
+        <!--<item name="android:textSize">19sp</item>-->
+        <item name="android:minHeight">36dp</item>
+        <item name="android:minWidth">88dp</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="StreameusTitre" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">@color/darkblue</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:paddingBottom">0dp</item>
+    </style>
+
+
+
+
+</resources>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Le conferencier:"
+            style="@style/StreameusTitre"
+            android:layout_marginLeft="16dp"/>
+        <include layout="@layout/listitem_contact"/>
+        <TextView
+            android:layout_marginLeft="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Description:"
+            style="@style/StreameusTitre"
+            android:paddingTop="0dp"/>
+        <TextView
+            android:layout_marginLeft="16dp"
+            android:id="@+id/conference_descritpion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cette conference porte sur tout ce qui parle de conference et de stream."/>
+
+        <TextView
+            android:layout_marginLeft="16dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Category: "
+            style="@style/StreameusTitre"/>
+        <TextView
+            android:layout_marginLeft="16dp"
+
+            android:id="@+id/conference_category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Information Technologie"/>
+        <TextView
+            android:layout_marginLeft="16dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Begining time: "
+            style="@style/StreameusTitre"/>
+        <TextView
+            android:layout_marginLeft="16dp"
+
+            android:id="@+id/conference_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Information Technologie"/>
+
+        <!--<RelativeLayout-->
+        <!--android:id="@+id/conference_auteur_wrapper"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/conference_descritpion_wrapper"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_marginLeft="16dp"-->
+        <!--android:layout_marginRight="16dp"-->
+        <!--android:layout_marginTop="16dp"-->
+        <!--android:padding="8dp"-->
+        <!--android:background="@color/white"-->
+        <!-->-->
+        <!--<ImageView-->
+        <!--android:id="@+id/conference_auteur_image"-->
+        <!--android:layout_width="75dp"-->
+        <!--android:layout_height="75dp"-->
+        <!--android:src="@drawable/avatar"-->
+        <!--/>-->
+        <!--<TextView-->
+        <!--android:id="@+id/conference_auteur_name"-->
+        <!--android:paddingLeft="16dp"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Bobli Bob"-->
+        <!--android:layout_toRightOf="@id/conference_auteur_image"/>-->
+        <!--<TextView-->
+        <!--android:paddingLeft="16dp"-->
+        <!--android:id="@+id/conference_auteur_job"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Expert en expertise"-->
+        <!--android:layout_alignLeft="@id/conference_auteur_name"-->
+        <!--android:layout_below="@id/conference_auteur_name"/>-->
+
+        <!--</RelativeLayout>-->
+
+
+    </LinearLayout>
+</ScrollView>

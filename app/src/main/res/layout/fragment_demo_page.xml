@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.streameus.streameus.gui.DemoPageFragment"
+    android:orientation="vertical"
+    android:layout_margin="12dp"
+    >
+
+    <ImageView
+        android:id="@+id/demoImage"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/profil_screenshot"
+        android:layout_margin="12dp"
+        />
+
+    <TextView
+        android:id="@+id/demoImageLegend"
+        android:layout_weight="0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ceci est un placeholder"
+        android:gravity="center"
+        android:layout_margin="12dp"
+        android:textColor="@android:color/white"
+
+
+        android:shadowColor="@android:color/black"
+        android:shadowDx="3"
+        android:shadowDy="3"
+        android:shadowRadius="20"
+
+        />
+
+</LinearLayout>
